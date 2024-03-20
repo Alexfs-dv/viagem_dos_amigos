@@ -1,0 +1,21 @@
+.button {
+    font-size: 1.3rem;
+    padding: 22px;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #000;
+
+    &--primary {
+        background-color: #4F2AC3;
+        color: #fff;
+
+        &:hover {
+            background-color: #546de5;
+        }
+    }
+
+    @media (max-width: 768px){
+        display: block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,31 @@
+@use 'variables';
+
+.attraction {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    &__details {
+        line-height: 22x;
+    }
+
+    &--best-beer {
+        background-image: linear-gradient(variables.$gradientColorOne, variables.$gradientColorTwo);
+    }
+
+    
+    &--gastronomy {
+        background-image: linear-gradient(variables.$gradientColorTwo, variables.$gradientColorTree);
+    }
+
+    &--services {
+        background-image: linear-gradient(variables.$gradientColorTree, variables.$gradientColorFour);
+    }
+    &--apartments {
+        background-image: linear-gradient(variables.$gradientColorFour, variables.$gradientColorTwo);
+    }
+    
+    &__image {
+        max-width: 100%;
+        border-radius: 6px;
+    }
+}

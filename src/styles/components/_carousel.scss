@@ -1,0 +1,22 @@
+@use '../variables';
+
+.section__carousel {
+    background-image: linear-gradient(variables.$gradientColorTwo, variables.$gradientColorOne);
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    &__title {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: 520px;
+    }
+
+    @media (max-width: 768px){
+        img {
+            height: 360px;
+        }
+    }
+}

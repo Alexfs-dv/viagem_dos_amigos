@@ -1,0 +1,50 @@
+@use 'variables';
+@use 'hero';
+@use 'components/buttons';
+@use 'attraction';
+@use 'components/carousel';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Satisfy", cursive;
+}
+
+@mixin text($fontSize: 1.5rem){
+    font-size: $fontSize;
+    color: #fff;
+}
+
+@mixin title($fontSize: 3rem){
+    font-size: $fontSize;
+    padding: 16px 8px;
+    color: #fff;
+}
+
+.text {
+    @include text;
+
+    @media (max-width: 768px){
+        font-size: 18px;
+    }
+}
+
+.title {
+    @include title;
+
+    @media(max-width: 768px){
+        font-size: 36px;
+    }
+}
+
+.title--big {
+    @include title(4.2rem);
+
+    @media(max-width:768px){
+        font-size: 2.5rem;
+    }
+}

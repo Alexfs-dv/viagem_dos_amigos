@@ -1,0 +1,12 @@
+@use 'variables';
+
+.footer {
+    background-color: variables.$gradientColorOne;
+    color: variables.$textColor;
+    padding: 16px;
+    border-top: 2px solid #fff;
+
+    @media (max-width: 768px){
+        text-align: center;
+    }
+}
