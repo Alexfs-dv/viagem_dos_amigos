@@ -18,7 +18,7 @@ const contador = setInterval(function(){
     const minutosAteEvento = Math.floor((intervaloTempoAteEvento % horaEmMilissegundos) / minutoEmMilissegundos);
     const segundosAteEvento = Math.floor((intervaloTempoAteEvento % minutoEmMilissegundos) / 1000) + 1;
 
-    document.getElementById('contador').innerHTML = `${diasAteEvento}dias ${horasAteEvento}h ${minutosAteEvento}m ${segundosAteEvento}s`;
+    document.getElementById('contador').innerHTML = `${diasAteEvento}dias ${horasAteEvento}hr ${minutosAteEvento}min ${segundosAteEvento}seg`;
 
     if(diasAteEvento == 0){
         clearInterval(contador);

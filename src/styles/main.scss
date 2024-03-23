@@ -11,16 +11,17 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "Satisfy", cursive;
+    font-family: roboto, sans-serif;
 }
 
-@mixin text($fontSize: 1.5rem){
+@mixin text($fontSize: 1.2rem){
     font-size: $fontSize;
     color: #fff;
 }
 
 @mixin title($fontSize: 3rem){
     font-size: $fontSize;
+    font-family: "Satisfy", cursive;
     padding: 16px 8px;
     color: #fff;
 }
