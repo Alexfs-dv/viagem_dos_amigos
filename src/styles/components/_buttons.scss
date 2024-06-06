@@ -6,11 +6,13 @@
     box-shadow: 2px 2px 2px #000;
 
     &--primary {
-        background-color: #4F2AC3;
+        background-color: rgb(56,173,169);
         color: #fff;
 
         &:hover {
-            background-color: #546de5;
+            background-color: transparent;
+            border: 2px solid  rgb(56,173,169);
+            color: rgb(56,173,169);
         }
     }
 
@@ -18,4 +20,4 @@
         display: block;
         text-align: center;
     }
-}
+} 

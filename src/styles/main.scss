@@ -14,16 +14,16 @@
     font-family: roboto, sans-serif;
 }
 
-@mixin text($fontSize: 1.2rem){
+@mixin text($fontSize: 16px){
     font-size: $fontSize;
-    color: #fff;
+    color: #38ada9
 }
 
 @mixin title($fontSize: 3rem){
     font-size: $fontSize;
     font-family: "Satisfy", cursive;
     padding: 16px 8px;
-    color: #fff;
+    color: #38ada9;
 }
 
 .text {

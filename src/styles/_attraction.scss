@@ -5,27 +5,24 @@
     padding-bottom: 80px;
     
     &__details {
-        line-height: 22x;
+        line-height: 20px;
     }
 
-    &--best-beer {
-        background-image: linear-gradient(variables.$gradientColorOne, variables.$gradientColorTwo);
-    }
-
-    
-    &--gastronomy {
-        background-image: linear-gradient(variables.$gradientColorTwo, variables.$gradientColorTree);
-    }
-
-    &--services {
-        background-image: linear-gradient(variables.$gradientColorTree, variables.$gradientColorFour);
-    }
-    &--apartments {
-        background-image: linear-gradient(variables.$gradientColorFour, variables.$gradientColorTwo);
+    &--about-hotel {
+        background: linear-gradient(rgba(56,173,169, 1), rgba(56,173,169, .4)), url("../images/travel.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
     
     &__image {
-        max-width: 100%;
+        width: 100%;
+        height: 480px;
         border-radius: 6px;
+    }
+
+    .bg-section{
+        background-color: #ffffff;
+        border-radius: 6px;
+        opacity: .6;
     }
 }
